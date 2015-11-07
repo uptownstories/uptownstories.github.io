@@ -8,28 +8,31 @@ layout: default
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-  <!-- STILL NOT SURE WHAT TO DO WITH THIS:
-  <ul>
-  {% for category in site.categories %}
-    <li>
-      <a href="">{{ category[0] }}</a>
-      {% for posts in category %}
-        {% if forloop.first %}
-            {% continue %}
-        {% endif %}
-        {% for post in posts %}
-
-            <p>{{ post.title }}</p>
-
+   <div class="container">
+    <div class="row">
+      <div class="col-xs-8">
+      {{ content }}
+      </div>
+      <div class="col-xs-3 col-offset-xs-1">
+        <!-- STILL NOT SURE WHAT TO DO WITH THIS: -->
+        <ul>
+        {% for category in site.categories %}
+          <li>
+            <a href="">{{ category[0] }}</a>
+            {% for posts in category %}
+              {% if forloop.first %}
+                  {% continue %}
+              {% endif %}
+              {% for post in posts %}
+                <!-- 
+                  <p>{{ post.title }}</p>
+                -->
+              {% endfor %}
+            {% endfor %}
+          </li>
         {% endfor %}
-      {% endfor %}
-    </li>
-  {% endfor %}
-</ul>
--->
+      </ul>
+    </div>
+  </div>
 
 </article>
