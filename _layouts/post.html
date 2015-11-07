@@ -12,4 +12,24 @@ layout: default
     {{ content }}
   </div>
 
+  <!-- STILL NOT SURE WHAT TO DO WITH THIS:
+  <ul>
+  {% for category in site.categories %}
+    <li>
+      <a href="">{{ category[0] }}</a>
+      {% for posts in category %}
+        {% if forloop.first %}
+            {% continue %}
+        {% endif %}
+        {% for post in posts %}
+
+            <p>{{ post.title }}</p>
+
+        {% endfor %}
+      {% endfor %}
+    </li>
+  {% endfor %}
+</ul>
+-->
+
 </article>
