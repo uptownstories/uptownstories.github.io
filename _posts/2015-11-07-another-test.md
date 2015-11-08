@@ -7,4 +7,4 @@ categories: beginning point-of-view
 
 Then you just type your post.
 
-I want to see if Github automatically regenerates this now.  Hope it does.
+I want to see if Github automatically regenerates this now.  Hope it does.  Now?
