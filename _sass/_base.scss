@@ -1,0 +1,26 @@
+.fullpic {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.site-header {
+  background: #f8f8f8;
+  position: relative;
+  padding: 0;
+
+  .navbar {
+    margin-bottom: 0;
+  }
+}
+
+.page-content {
+  margin-top: 400px;
+  background: #fff;
+  position: relative;
+}

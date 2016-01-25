@@ -1,10 +1,9 @@
 ---
 layout: default
+fullpic: /images/kate-kids.jpg
 ---
 
 # Uptown Stories
-
-![Workshop](/images/kate-kids.jpg)
 
 At Uptown Stories, we believe that writing is an essential tool for self-expression, critical thinking, and academic success.
 

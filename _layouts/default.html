@@ -5,8 +5,14 @@
 
   <body>
 
-    {% include header.html %}
+    {% if page.fullpic %}
+    <div class="fullpic">
+      <img src="{{ page.fullpic }}">
+    </div>
+    {% endif %}
 
+    {% include header.html %}
+    
     <div class="page-content">
       <div class="container">
         <div class="row">
