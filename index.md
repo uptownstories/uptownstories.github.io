@@ -1,6 +1,6 @@
 ---
 layout: default
-fullpic: /images/kate-kids.jpg
+fullpic: kate-kids.jpg
 ---
 
 # Uptown Stories

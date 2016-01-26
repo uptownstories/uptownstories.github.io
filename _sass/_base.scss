@@ -20,7 +20,43 @@
 }
 
 .page-content {
-  margin-top: 400px;
+  /*margin-top: 400px;*/
   background: #fff;
   position: relative;
+}
+
+.class-summary {
+
+  border: 1px solid #666;
+  margin-bottom: $line-height-computed * 2;
+    
+  dt {
+    @media (min-width: 768px) {
+      text-align: left;
+      text-transform: uppercase;
+      width: 60px;
+      font-weight: normal;
+      font-size: 85%;
+    }
+  }
+
+  dd {
+    @media (min-width: 768px) {
+      margin-left: 80px;
+      margin-bottom: 5px;
+    }
+  }
+
+  figure {
+    margin-top: $line-height-computed;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .availability {
+    padding-top: $line-height-computed;
+  }
 }

@@ -19,3 +19,7 @@ github_username:  uptownstories
 markdown: kramdown
 kramdown:
   input: GFM
+
+collections:
+  classes:
+    output: false
