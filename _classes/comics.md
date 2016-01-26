@@ -3,6 +3,7 @@ title: Write Like a Girl
 level: Any
 meets: Mondays, 5:00 - 7:30
 image: kate-kids.jpg
+open: false
 ---
 
 Learn how to write comics!!!
